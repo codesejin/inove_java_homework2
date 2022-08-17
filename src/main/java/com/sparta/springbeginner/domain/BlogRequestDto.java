@@ -11,9 +11,10 @@ public class BlogRequestDto {
     private String contents;
     private int password;
 
-    BlogRequestDto(String title, String username){
+    BlogRequestDto(String title, String username, String contents){
         this.title = title;
         this.username = username;
+        this.contents = contents;
     }
 }
 //dto분리도 어느정도 필요

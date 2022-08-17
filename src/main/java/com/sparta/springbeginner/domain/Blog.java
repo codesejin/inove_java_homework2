@@ -1,26 +1,32 @@
 package com.sparta.springbeginner.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
+import lombok.Setter;
 
 import javax.persistence.*;
 
 @NoArgsConstructor
+@Setter
 @Getter
 @Entity
 public class Blog extends Timestamped{
     @GeneratedValue(strategy = GenerationType.AUTO)
     @Id
+
     private Long id;
     @Column(nullable = false)
     private String title;
     @Column(nullable = false)
     private String username;
-    @Column(nullable = false)
-    private String contents;
 
     @Column(nullable = false)
+    private String contents;
+    @JsonIgnore
+    @Column(nullable = false)
     private int password;
+
 
     public Blog(String title, String username, String contents, int password){
         this.title = title;
