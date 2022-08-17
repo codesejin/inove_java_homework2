@@ -1,5 +1,6 @@
 package com.sparta.springbeginner.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.Setter;
 // 디티오의 값을 셋할때 생성자로 하는게 더 편하다

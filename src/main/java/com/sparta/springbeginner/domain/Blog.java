@@ -1,5 +1,6 @@
 package com.sparta.springbeginner.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
@@ -18,7 +19,7 @@ public class Blog extends Timestamped{
     private String username;
     @Column(nullable = false)
     private String contents;
-
+    @JsonIgnore
     @Column(nullable = false)
     private int password;
 
