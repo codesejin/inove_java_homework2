@@ -4,6 +4,7 @@ import com.sparta.springbeginner.domain.Blog;
 import com.sparta.springbeginner.domain.BlogRepository;
 import com.sparta.springbeginner.domain.BlogRequestDto;
 import lombok.RequiredArgsConstructor;
+import org.springframework.stereotype.Repository;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
