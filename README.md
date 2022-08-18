@@ -3,6 +3,7 @@
 
 ![image](https://user-images.githubusercontent.com/101460733/185389528-e4d74a50-288b-46b2-b34e-7da992487ba8.png)
 
+![image](https://user-images.githubusercontent.com/101460733/185390404-d3081822-f4ad-4e1c-9d51-510e14d480fb.png)
 
 ### **요구사항**
 
