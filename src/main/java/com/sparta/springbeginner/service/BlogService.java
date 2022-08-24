@@ -1,4 +1,4 @@
-package com.sparta.springbeginner.controller.service;
+package com.sparta.springbeginner.service;
 
 import com.sparta.springbeginner.domain.Blog;
 import com.sparta.springbeginner.domain.BlogMainDto;
